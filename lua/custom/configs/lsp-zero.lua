@@ -6,6 +6,8 @@ lsp.on_attach(function(client, bufnr)
   lsp.default_keymaps({buffer = bufnr})
 end)
 
+-- disable virtual-text
+
 -- When you don't have mason.nvim installed
 -- You'll need to list the servers installed in your system
 lsp.setup_servers({'rust-analyzer', 'lua-language-server', 'rnix'})
