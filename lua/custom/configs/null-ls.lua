@@ -23,6 +23,9 @@ local sources = {
 
   -- nix
   b.formatting.nixfmt,
+
+  -- cpp
+  b.formatting.clang_format,
 }
 
 null_ls.setup {
